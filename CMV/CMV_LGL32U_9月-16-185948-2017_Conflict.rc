@@ -1,0 +1,854 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#ifndef APSTUDIO_INVOKED
+#include "targetver.h"
+#endif
+#include "afxres.h"
+#include "verrsrc.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(简体，中国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#ifndef APSTUDIO_INVOKED\r\n"
+    "#include ""targetver.h""\r\n"
+    "#endif\r\n"
+    "#include ""afxres.h""\r\n"
+    "#include ""verrsrc.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#include ""res\\CMV.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#if !defined(_AFXDLL)\r\n"
+    "#include ""l.CHS\\afxprint.rc""        // 打印/打印预览资源\r\n"
+    "#include ""l.CHS\\afxribbon.rc""        // MFC 功能区和控制条资源\r\n"
+    "#endif\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Main.ico"
+
+IDI_FILE_VIEW           ICON                    "res\\file_view.ico"
+
+IDI_FILE_VIEW_HC        ICON                    "res\\file_view_hc.ico"
+
+IDI_CLASS_VIEW          ICON                    "res\\class_view.ico"
+
+IDI_CLASS_VIEW_HC       ICON                    "res\\class_view_hc.ico"
+
+IDI_OUTPUT_WND          ICON                    "res\\output_wnd.ico"
+
+IDI_OUTPUT_WND_HC       ICON                    "res\\output_wnd_hc.ico"
+
+IDI_PROPERTIES_WND      ICON                    "res\\properties_wnd.ico"
+
+IDI_PROPERTIES_WND_HC   ICON                    "res\\properties_wnd_hc.ico"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+IDR_MAINFRAME_256       BITMAP                  "res\\Toolbar256.bmp"
+
+IDB_MAIN                BITMAP                  "res\\main.bmp"
+
+IDB_FILELARGE           BITMAP                  "res\\filelarge.bmp"
+
+IDB_FILESMALL           BITMAP                  "res\\filesmall.bmp"
+
+IDB_WRITELARGE          BITMAP                  "res\\writelarge.bmp"
+
+IDB_WRITESMALL          BITMAP                  "res\\writesmall.bmp"
+
+IDB_BUTTONS             BITMAP                  "res\\buttons.bmp"
+
+IDR_SORT                BITMAP                  "res\\sort.bmp"
+
+IDB_SORT_24             BITMAP                  "res\\sort_hc.bmp"
+
+IDB_FILE_VIEW           BITMAP                  "res\\fileview.bmp"
+
+IDB_FILE_VIEW_24        BITMAP                  "res\\fileview_hc.bmp"
+
+IDB_CLASS_VIEW          BITMAP                  "res\\classview.bmp"
+
+IDB_CLASS_VIEW_24       BITMAP                  "res\\classview_hc.bmp"
+
+IDR_EXPLORER            BITMAP                  "res\\explorer.bmp"
+
+IDB_EXPLORER_24         BITMAP                  "res\\explorer_hc.bmp"
+
+IDR_MENU_IMAGES         BITMAP                  "res\\menuimages.bmp"
+
+IDB_MENU_IMAGES_24      BITMAP                  "res\\menuimages_hc.bmp"
+
+IDR_PROPERTIES          BITMAP                  "res\\properties.bmp"
+
+IDB_PROPERTIES_HC       BITMAP                  "res\\properties_hc.bmp"
+
+IDB_NAVIGATION_LARGE    BITMAP                  "res\\nav_large.bmp"
+
+IDB_NAVIGATION_LARGE_HC BITMAP                  "res\\nav_large_hc.bmp"
+
+IDB_PAGES               BITMAP                  "res\\pages.bmp"
+
+IDB_PAGES_HC            BITMAP                  "res\\pages_hc.bmp"
+
+IDB_PAGES_SMALL         BITMAP                  "res\\pages_small.bmp"
+
+IDB_PAGES_SMALL_HC      BITMAP                  "res\\pages_small_hc.bmp"
+
+IDB_INFO                BITMAP                  "res\\info.bmp"
+
+IDB_HOME                BITMAP                  "res\\main_home.bmp"
+
+IDB_MEASURE_LARGE       BITMAP                  "res\\measurelarge.bmp"
+
+IDB_MEA_LARGE           BITMAP                  "res\\measurelarge2.bmp"
+
+IDB_CM                  BITMAP                  "res\\main2.bmp"
+
+IDB_MATCH_SMALL         BITMAP                  "res\\matchingsmall.bmp"
+
+IDB_CELIBRATIONSMALL    BITMAP                  "res\\calibrationsmall.bmp"
+
+IDB_CELIBRATE_LARGE     BITMAP                  "res\\calibratelarge.bmp"
+
+IDB_MACTCH_LARGE        BITMAP                  "res\\Matchlarge.bmp"
+
+IDB_MEA_ELE_LARGE       BITMAP                  "res\\MeasureEleLarge.bmp"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_MAINFRAME_256 TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_SORT TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_SORT_MENU
+    BUTTON      ID_NEW_FOLDER
+END
+
+IDR_EXPLORER TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_PROPERTIES
+END
+
+IDR_MENU_IMAGES TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_WINDOW_MANAGER
+    SEPARATOR
+    BUTTON      ID_WINDOW_CASCADE
+    BUTTON      ID_WINDOW_TILE_HORZ
+    BUTTON      ID_TOOLS_MACRO
+    BUTTON      ID_SORTING_SORTALPHABETIC
+    BUTTON      ID_SORTING_SORTBYTYPE
+    BUTTON      ID_SORTING_SORTBYACCESS
+    BUTTON      ID_SORTING_GROUPBYTYPE
+END
+
+IDR_PROPERTIES TOOLBAR 16, 15
+BEGIN
+    BUTTON      ID_EXPAND_ALL
+    BUTTON      ID_SORTPROPERTIES
+    BUTTON      ID_PROPERTIES1
+    BUTTON      ID_PROPERTIES2
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "关闭(&C)",                      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+        MENUITEM "标题栏(&C)",                     ID_VIEW_CAPTION_BAR
+        POPUP "应用程序外观(&A)"
+        BEGIN
+            MENUITEM "Windows 2000(&2)",            ID_VIEW_APPLOOK_WIN_2000
+            MENUITEM "Office XP(&X)",               ID_VIEW_APPLOOK_OFF_XP
+            MENUITEM "Windows XP(&W)",              ID_VIEW_APPLOOK_WIN_XP
+            MENUITEM "Office 2003(&3)",             ID_VIEW_APPLOOK_OFF_2003
+            MENUITEM "Visual Studio 200&5",         ID_VIEW_APPLOOK_VS_2005
+            MENUITEM "Visual Studio 200&8",         ID_VIEW_APPLOOK_VS_2008
+            POPUP "Office 2007(&7)"
+            BEGIN
+                MENUITEM "蓝色样式(&B)",                    ID_VIEW_APPLOOK_OFF_2007_BLUE
+                MENUITEM "黑色样式(&L)",                    ID_VIEW_APPLOOK_OFF_2007_BLACK
+                MENUITEM "银色样式(&S)",                    ID_VIEW_APPLOOK_OFF_2007_SILVER
+                MENUITEM "水绿色样式(&A)",                   ID_VIEW_APPLOOK_OFF_2007_AQUA
+            END
+        END
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 CMV(&A)...",               ID_APP_ABOUT
+    END
+END
+
+IDR_CMVTYPE MENU
+BEGIN
+    POPUP "文件(&F)"
+    BEGIN
+        MENUITEM "新建(&N)\tCtrl+N",              ID_FILE_NEW
+        MENUITEM "关闭(&C)",                      ID_FILE_CLOSE
+        MENUITEM SEPARATOR
+        MENUITEM "退出(&X)",                      ID_APP_EXIT
+    END
+    POPUP "编辑(&E)"
+    BEGIN
+        MENUITEM "撤消(&U)\tCtrl+Z",              ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "视图(&V)"
+    BEGIN
+        MENUITEM "状态栏(&S)",                     ID_VIEW_STATUS_BAR
+        MENUITEM "标题栏(&C)",                     ID_VIEW_CAPTION_BAR
+        POPUP "应用程序外观(&A)"
+        BEGIN
+            MENUITEM "Windows 2000(&2)",            ID_VIEW_APPLOOK_WIN_2000
+            MENUITEM "Office XP(&X)",               ID_VIEW_APPLOOK_OFF_XP
+            MENUITEM "Windows XP(&W)",              ID_VIEW_APPLOOK_WIN_XP
+            MENUITEM "Office 2003(&3)",             ID_VIEW_APPLOOK_OFF_2003
+            MENUITEM "Visual Studio 200&5",         ID_VIEW_APPLOOK_VS_2005
+            MENUITEM "Visual Studio 200&8",         ID_VIEW_APPLOOK_VS_2008
+            POPUP "Office 2007(&7)"
+            BEGIN
+                MENUITEM "蓝色样式(&B)",                    ID_VIEW_APPLOOK_OFF_2007_BLUE
+                MENUITEM "黑色样式(&L)",                    ID_VIEW_APPLOOK_OFF_2007_BLACK
+                MENUITEM "银色样式(&S)",                    ID_VIEW_APPLOOK_OFF_2007_SILVER
+                MENUITEM "水绿色样式(&A)",                   ID_VIEW_APPLOOK_OFF_2007_AQUA
+            END
+        END
+    END
+    POPUP "窗口(&W)"
+    BEGIN
+        MENUITEM "层叠(&C)",                      ID_WINDOW_CASCADE
+        MENUITEM "平铺(&T)",                      ID_WINDOW_TILE_HORZ
+        MENUITEM "排列图标(&A)",                    ID_WINDOW_ARRANGE
+    END
+    POPUP "帮助(&H)"
+    BEGIN
+        MENUITEM "关于 CMV(&A)...",               ID_APP_ABOUT
+    END
+END
+
+IDR_POPUP_EDIT MENU
+BEGIN
+    POPUP "编辑"
+    BEGIN
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&P)\tCtrl+V",              ID_EDIT_PASTE
+    END
+END
+
+IDR_WINDOWS_MENU MENU
+BEGIN
+    MENUITEM "新建窗口(&N)",                    ID_WINDOW_NEW
+END
+
+IDR_POPUP_SORT MENU
+BEGIN
+    POPUP "排序"
+    BEGIN
+        MENUITEM "按字母顺序排序(&S)",                 ID_SORTING_SORTALPHABETIC
+        MENUITEM "按类型排序(&T)",                   ID_SORTING_SORTBYTYPE
+        MENUITEM "按访问排序(&E)",                   ID_SORTING_SORTBYACCESS
+        MENUITEM "按类型分组(&Y)",                   ID_SORTING_GROUPBYTYPE
+    END
+END
+
+IDR_POPUP_EXPLORER MENU
+BEGIN
+    POPUP "资源管理器"
+    BEGIN
+        MENUITEM "打开(&O)",                      ID_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM SEPARATOR
+        MENUITEM "剪切(&T)\tCtrl+X",              ID_EDIT_CUT
+        MENUITEM "复制(&C)\tCtrl+C",              ID_EDIT_COPY
+        MENUITEM "粘贴(&V)\tCtrl+V",              ID_ProjectTreePaste
+        MENUITEM "移除(&D)\tCtrl+D",              ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "运行到此处",                       ID_32898
+    END
+END
+
+IDR_OUTPUT_POPUP MENU
+BEGIN
+    POPUP "弹出项"
+    BEGIN
+        MENUITEM "复制(&C)",                      ID_EDIT_COPY
+        MENUITEM "清除(&C)",                      ID_EDIT_CLEAR
+        MENUITEM SEPARATOR
+        MENUITEM "隐藏(&H)",                      ID_VIEW_OUTPUTWND
+    END
+END
+
+IDR_HELP_MENU MENU
+BEGIN
+    MENUITEM "关于 CMV(&A)...",               ID_APP_ABOUT
+END
+
+IDR_THEME_MENU MENU
+BEGIN
+    MENUITEM "Office 2007 (蓝色样式)(&B)",      ID_VIEW_APPLOOK_OFF_2007_BLUE
+    MENUITEM "Office 2007 (黑色样式)(&L)",      ID_VIEW_APPLOOK_OFF_2007_BLACK
+    MENUITEM "Office 2007 (银色样式)(&S)",      ID_VIEW_APPLOOK_OFF_2007_SILVER
+    MENUITEM "Office 2007 (水绿色样式)(&A)",     ID_VIEW_APPLOOK_OFF_2007_AQUA
+    MENUITEM "Windows 7(&D)",               ID_VIEW_APPLOOK_WINDOWS_7
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS
+BEGIN
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 216, 111
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于 CMV"
+FONT 9, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,14,14,20,20
+    LTEXT           "全自动视觉测量系统，2.00.01 版",IDC_STATIC,42,14,114,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2017-2018",IDC_STATIC,42,26,114,8
+    DEFPUSHBUTTON   "确定",IDOK,75,90,50,14,WS_GROUP
+    LTEXT           "By David Lee   keersun@qq.com",IDC_STATIC,42,60,114,8
+END
+
+IDD_DIALOG_LOGING DIALOGEX 0, 0, 244, 120
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "请登录"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,64,99,50,14
+    PUSHBUTTON      "取消",IDCANCEL,135,99,50,14
+    EDITTEXT        IDC_EDIT_USER_NAME,97,42,81,14,ES_AUTOHSCROLL
+    LTEXT           "用户名：",IDC_STATIC,57,45,33,8
+    EDITTEXT        IDC_EDIT_PASSWORD,97,63,81,14,ES_PASSWORD | ES_AUTOHSCROLL
+    LTEXT           "口令：",IDC_STATIC,57,67,25,8
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "CMV"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "CMV.exe"
+            VALUE "LegalCopyright", "TODO:  (C) <公司名>。  保留所有权利。"
+            VALUE "OriginalFilename", "CMV.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 209
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_DIALOG_LOGING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 237
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 113
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Ribbon
+//
+
+IDR_RIBBON              RT_RIBBON_XML           "res\\ribbon.mfcribbon-ms"
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_DIALOG_LOGING AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE 初始化失败。  请确保 OLE 库是正确的版本。"
+    IDC_IPWinStatic         "处理图像缩略静态控件"
+    IDC_FGWinStatic         "采集图像缩略静态控件"
+    IDC_MainStatic          "主显示静态控件"
+    IDP_SOCKETS_INIT_FAILED "Windows 套接字初始化失败。"
+    IDS_OUTRESULT_TAB       "元素检测"
+END
+
+STRINGTABLE
+BEGIN
+    IDR_MAINFRAME           "CMV"
+    IDR_CMVTYPE             "\nCMV\nCMV"
+    ID_WINDOW_MANAGER       "窗口(&W)"
+    ID_VIEW_FILEVIEW        "显示或隐藏文件栏\n切换文件栏"
+    ID_VIEW_CLASSVIEW       "显示或隐藏类视图栏\n切换类视图栏"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_APP_TITLE       "CMV"
+    AFX_IDS_IDLEMESSAGE     "就绪"
+END
+
+STRINGTABLE
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE
+BEGIN
+    ID_FILE_NEW             "新打开一个窗口\n新建"
+    ID_FILE_OPEN            "加载一副图片\n加载"
+    ID_FILE_CLOSE           "关闭活动文档\n关闭"
+    ID_FILE_SAVE            "保存当前窗口的图片\n保存"
+END
+
+STRINGTABLE
+BEGIN
+    ID_APP_ABOUT            "显示程序信息、版本号和版权信息\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+    ID_HELP                 "软件使用帮助"
+END
+
+STRINGTABLE
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗格\n下一窗格"
+    ID_PREV_PANE            "切换回上一个窗格\n上一窗格"
+END
+
+STRINGTABLE
+BEGIN
+    ID_WINDOW_ARRANGE       "在窗口底部排列图标\n排列图标"
+    ID_WINDOW_CASCADE       "以重叠方式排列窗口\n层叠窗口"
+    ID_WINDOW_TILE_HORZ     "以不重叠的平铺方式排列窗口\n平铺窗口"
+    ID_WINDOW_TILE_VERT     "以不重叠的平铺方式排列窗口\n平铺窗口"
+    ID_WINDOW_SPLIT         "将活动窗口拆分为多个窗格\n拆分"
+END
+
+STRINGTABLE
+BEGIN
+    ID_EDIT_CLEAR           "清除所选内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除全部内容\n全部清除"
+    ID_EDIT_COPY            "复制所选内容，将其放入剪贴板\n复制"
+    ID_EDIT_CUT             "剪切所选内容，将其放入剪贴板\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一操作\n重复"
+    ID_EDIT_REPLACE         "用其他文本替换特定的文本\n替换"
+    ID_EDIT_SELECT_ALL      "选定整个文档\n全选"
+    ID_EDIT_UNDO            "撤消上一操作\n撤消"
+    ID_EDIT_REDO            "重做上次撤消的操作\n重做"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_TOOLBAR         "显示或隐藏工具栏\n切换工具栏"
+    ID_VIEW_STATUS_BAR      "显示或隐藏状态栏\n切换状态栏"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_CAPTION_BAR     "显示或隐藏标题栏\n切换标题栏"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCSIZE          "更改窗口大小"
+    AFX_IDS_SCMOVE          "更改窗口位置"
+    AFX_IDS_SCMINIMIZE      "将窗口缩小成图标"
+    AFX_IDS_SCMAXIMIZE      "将窗口放大到最大尺寸"
+    AFX_IDS_SCNEXTWINDOW    "切换到下一个文档窗口"
+    AFX_IDS_SCPREVWINDOW    "切换到上一个文档窗口"
+    AFX_IDS_SCCLOSE         "关闭活动窗口并提示保存文档"
+END
+
+STRINGTABLE
+BEGIN
+    AFX_IDS_SCRESTORE       "将窗口恢复到正常大小"
+    AFX_IDS_SCTASKLIST      "激活任务列表"
+    AFX_IDS_MDICHILD        "激活此窗口"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_STATUS_PANE1        "启动OK......................................................................"
+    IDS_STATUS_PANE2        "江苏常美 2017-2018"
+END
+
+STRINGTABLE
+BEGIN
+    ID_VIEW_OUTPUTWND       "显示或隐藏输出栏\n切换输出栏"
+    ID_VIEW_PROPERTIESWND   "显示或隐藏属性栏\n切换属性栏"
+    IDS_FILE_VIEW           "项目视图"
+    IDS_CLASS_VIEW          "其它视图"
+    IDS_OUTPUT_WND          "输出"
+    IDS_PROPERTIES_WND      "属性"
+    IDS_PICTURE_VIEW        "缩略图"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_EXPLORER            "资源管理器"
+    IDS_EDIT_MENU           "编辑"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_BUILD_TAB           "日志"
+    IDS_DEBUG_TAB           "产品检测"
+    IDS_FIND_TAB            "查找"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_MYCALENDARS         "我的日历"
+    IDS_CALENDAR            "日历"
+    IDS_SHORTCUTS           "快捷方式"
+    IDS_FOLDERS             "文件夹"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_OUTLOOKBAR          "Outlook 栏"
+END
+
+STRINGTABLE
+BEGIN
+    IDS_CAPTION_BUTTON      "选项..."
+    IDS_CAPTION_BUTTON_TIP  "单击此处查看其他选项"
+    IDS_CAPTION_TEXT        "这是标题栏，可在其中向用户显示消息。"
+    IDS_CAPTION_IMAGE_TIP   "重要事项"
+    IDS_CAPTION_IMAGE_TEXT  "这是向用户显示的信息性消息。"
+END
+
+STRINGTABLE
+BEGIN
+    ID_CAM_ONE_SHOT         "拍摄一张照片\n单拍"
+    ID_CAM_CAP_MULTI        "以不同的曝光, 增益参数, 相机拍摄多张照片\n多拍"
+    ID_CAM_CONTINUE_CAP     "连续拍摄照片\n连拍"
+    ID_WIN_ZOOM_OUT         "放大窗口\n放大"
+    ID_WIN_ZOOM_IN          "缩小当前窗口\n缩小"
+    ID_WIN_RESTORE          "还原当前窗口大小\n还原"
+    ID_USER_LOGING          "用户登录管理\n登录"
+    ID_REPORT_MANAGE        "输出测量结果到EXCEL文件\nEXCEL报表"
+    ID_SYS_SETTING          "系统设置\n设置"
+    ID_RECTITY_PICTURE      "根据相机标定内参，姿态，校正图象"
+END
+
+STRINGTABLE
+BEGIN
+    ID_CAM_POSE_SET         "相机姿态设置"
+    ID_MODEL_SET            "创建模板"
+    ID_MATCH_MODEL          "根据模板, 匹配查找定位"
+    ID_MEASURE_MANUAL       "手动测量\n测量"
+    ID_MEASURE_AUTO         "开始自动测量"
+    ID_MEASURE_STOP         "停止测量"
+    ID_COMBO_CAMERA_TYPE    "选择相机的接口类型"
+    ID_COMBO_CAMERA_RESOLUTIION "选择相机的分辨率"
+    ID_COMBO_CALI_CAMERA_MODEL "选择摄像机标定模型\n模型"
+END
+
+STRINGTABLE
+BEGIN
+    ID_CHECK_CAMERA_SOFT_TRIG "采用软件定时触发采集图像"
+    ID_COMBO_CAMERA_CONNECT_TYPE "相机接口类型"
+    ID_COMBO_CAMERA_NAME    "选择使用那个相机"
+    ID_EDIT_CAMERA_TRIG_TIME "相机软件定时周期"
+    ID_CHECK_CAMERA_IS_RGB  "相机采集彩色图像"
+    ID_MEA_ELE_LINE         "添加 直线 元素到项目中\n直线"
+    ID_BUT_CALI_INNER       "当前元素列表\n元素列表"
+    ID_ROI_DRAW_CIRCLE      "圆形模板\n圆形模板"
+    ID_ROI_INFO             "显示当前的模板信息\n模板信息"
+    ID_COMBO_MATCH_ROI_TYPE "指定ROI的集合方式，并，交，差，对称差\nROI运算方式"
+END
+
+STRINGTABLE
+BEGIN
+    ID_CALIBRATE_INNER      "标定相机内部参数\n标定内参"
+    ID_BUT_CALI_CAPTURE     "保存当前标定图案\n标定截图"
+END
+
+STRINGTABLE
+BEGIN
+    ID_BUT_CALI_POSE        "校正相机的姿态\n姿态 pose"
+    ID_BUTTON_GEN_RECTIFY_MAP "产生畸变校正映射图像\nMap"
+    ID_COMBO_CALI_MAP_TYPE  "gen_image_to_world_plane_map MapType\n映射类型"
+    ID_BUT_DRAW_SPOKE       "画圆ROI\n圆ROI"
+    ID_BUT_FIND_MODEL       "根据模块, 查找并定位\n定位"
+    ID_ROI_DRAW_RECTANGLE2  "斜矩形模板\n斜矩形"
+    ID_BUTTON_TAKE_ONE      "拍一张照片\n拍照"
+    ID_BUT_RAKE_LINE        "画直线ROI\n直线"
+    ID_BUT_ROI_LINE_FIT     "拟合直线\n拟合直线"
+    ID_BUT_ROI_CIRCLE_FIT   "拟合圆\n拟合圆"
+END
+
+STRINGTABLE
+BEGIN
+    ID_BALLOON_MOLDING      "球囊建模\n建模"
+    ID_BALLOON_MEASURE      "球囊尺寸检测\n检测"
+    ID_CHECK_CAMERA_EXPOSURE_MODE "相机自动曝光方式\n曝光方式"
+    ID_CAMERA_GAIN_SPIN     "调节相机的模拟增益倍数\n增益调整"
+    ID_CAMERA_EXPOSURE_TIME_SPIN "相机曝光时间调整\n曝光时间(ms)"
+    ID_EDIT_EXPOSURE_TIIME  "调节相机的曝光时间\n曝光时间(ms)"
+    ID_EDIT_CAMERA_GAIN     "设置相机的增益倍数\n相机增益"
+    ID_VIEW_PROPERTY_BAR    "显示或隐藏属性栏\n切换属性栏"
+    ID_VIEW_PICTUREVIEW     "显示或隐藏缩略图\n切换缩略图"
+    ID_PROJECT_RENAME       "重命名项目名称"
+END
+
+STRINGTABLE
+BEGIN
+    ID_BUT_CALI_SHOW_INFO   "显示当前的标定信息"
+    ID_BUT_CALI_DEL         "删除当前的标定信息"
+    ID_BUT_CALI_CORRECT     "校正标定后的图像"
+    ID_BUT_MATCH_LOAD_PIC   "加载原来保存的匹配用的图像\n加载"
+    ID_MATCH_TAKE_ONE       "拍一张图保存到匹配目录中，用于后续匹配工作\n实时采集"
+    ID_ROI_DEL_ALL_ROI      "删除所有的ROI区域"
+    ID_MATCH_DEL_ALL_ROI    "匹配时删除所有的 ROI 区域\n删除全部ROI"
+    ID_ROI_DRAW_ELLIPSE     "椭圆形模板\n椭圆形模板"
+    ID_ROI_DRAW_RECTANGLE   "正矩形模板\n正矩形"
+    ID_ROI_DRAW_ANY_LINE    "任意线模板\n任意线矩形"
+    ID_ROI_FIND_MODEL       "根据模块ROI, 查找并定位\n定位"
+    ID_MEA_ELE_CIRCLE       "添加 圆 元素到项目中\n圆"
+    ID_MEA_ELE_ARC          "添加 圆弧 元素到项目中\n圆弧"
+    ID_MEA_ELE_ELLISPE      "添加 椭圆 元素到项目中\n椭圆"
+    ID_MEA_ELE_ELLISPE_ARC  "添加 椭圆弧 元素到项目中\n椭圆弧"
+    ID_MEA_ELE_WIDTH        "添加 测量宽度 元素到项目中\n测量宽度"
+END
+
+STRINGTABLE
+BEGIN
+    ID_MEA_ELE_FIND_EDGE    "添加 查找边缘 元素到项目中\n查找边缘"
+    ID_MEA_ELE_FIND_TOP     "添加 查找顶点 元素到项目中\n查找顶点"
+    ID_MEA_ELE_AREA         "添加 面积 元素到项目中\n面积 "
+    ID_MEA_ELE_COUNTER      "添加 计数 元素到项目中\n计数"
+    ID_MEA_ELE_BAR_1        "添加 一维条码 元素到项目中\n一维条码"
+    ID_MEA_ELE_BAR_2        "添加 二维条码 元素到项目中\n二维码"
+    ID_MEA_ELE_MEASURE      "手动测量一次\n测量"
+    ID_MEA_ELE_LIST         "当前项目元素列表\n元素列表"
+    ID_BUT_MATCH_SAVE_MODEL "保存当前的匹配用的图像及ROI\n保存"
+    ID_MEA_ELE_DEL_ALL      "删除所有的元素\n删除所有"
+    ID_ELE_ANGLE            "添加 角度 元素到项目中\n角度"
+    ID_MEA_ELE_OUTPUT       "添加 输出到报表的 元素到项目中\n输出 "
+    ID_ELE_DISTANCE         "添加 距离 元素到项目中\n距离"
+    ID_MEA_ELE_CAMERA       "添加 相机参数，并采集一副图像 \n相机参数"
+    ID_MEA_ELE_function     "添加 函数 元素到项目中\n添加函数"
+    ID_AUTO_STOP            "自动测量停止\n停止自动测量"
+END
+
+STRINGTABLE
+BEGIN
+    ID_AUTO_START           "自动测量开始，按空格输入测量数据\n自动测量"
+    ID_MEA_ELE_STEP         "一次测量一个元素\n单步"
+    ID_EXPORT_EXCEL         "输出测量结果到EXCEL文件\nEXCEL报表"
+    ID_MEA_ELE_MILLIMETER   "添加 毫米 元素到项目中\n毫米"
+    ID_DELETE_PRODUCT_RESULT "删除当前项目的测量数据\n删除数据"
+    ID_MEA_ELE_BALLOON_LENGTH "通过四个顶点来得到球囊的长度\n球囊长度"
+    ID_MEA_BALLOON_CENTER   "用二条或四条直线标定球囊的中心线\n球囊中心线"
+    ID_MEA_BALLOON_ECCENT   "二边查找顶点方式求球囊的偏心度\n球囊偏心度"
+    ID_MEA_ELE_BALLOON_FLAW "分析球囊的表面缺陷\n球囊缺陷"
+    ID_MEA_ELE_SAVE         "保存所有的匹配元素图像\n保存元素"
+END
+
+#endif    // 中文(简体，中国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#include "res\CMV.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#if !defined(_AFXDLL)
+#include "l.CHS\afxprint.rc"        // 打印/打印预览资源
+#include "l.CHS\afxribbon.rc"        // MFC 功能区和控制条资源
+#endif
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,615 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\LGL">
+      <UniqueIdentifier>{8a40a796-8092-4721-9147-bc81fdc880cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Sqlite">
+      <UniqueIdentifier>{d5c73378-063f-4a5d-89af-c3a3e30048c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ROI">
+      <UniqueIdentifier>{222c25d8-bf6c-4246-bf72-3ea79bfa4b30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\MainFrm">
+      <UniqueIdentifier>{098545ad-6d4c-48c3-89db-4d22f5dbb30c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\属性页">
+      <UniqueIdentifier>{d441977b-a2f7-451f-95cd-25feadb4d60b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\输出视图">
+      <UniqueIdentifier>{340f9731-3e72-4398-98e0-894190112515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\缩略图">
+      <UniqueIdentifier>{db12eec1-8b13-4f65-b36f-c924418b618a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\标定">
+      <UniqueIdentifier>{94f0a497-70a4-42da-9762-9a7b71d52190}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\项目视图">
+      <UniqueIdentifier>{bcca5ca7-b432-42a1-a8a2-d013d338aa8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SQLite">
+      <UniqueIdentifier>{90d33abf-8248-459e-9b99-75dc0a1bbf9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SQLite\SQLCPP">
+      <UniqueIdentifier>{49bdbd9f-d181-4993-94e9-b0232e1e34a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\SQLite\SQLCPPH">
+      <UniqueIdentifier>{1c8fb234-3562-453e-9e40-74fa56ba86da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\类视图">
+      <UniqueIdentifier>{c792a352-4daa-4843-93b1-dc6fbd27df3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Sqlite\Excel">
+      <UniqueIdentifier>{bd7995e6-66d5-433c-94e8-61c2db90ed35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\excel">
+      <UniqueIdentifier>{e2f8cfea-86d5-41be-8e33-0745eb2a0927}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\VMP">
+      <UniqueIdentifier>{6d90150f-09e4-463d-b588-31ad2ebc24fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\登录">
+      <UniqueIdentifier>{4dba1068-8521-40c5-b322-f119d132da16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Camera">
+      <UniqueIdentifier>{7c1b7e47-0e90-4ed1-aaf8-031f2529074f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CMV.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildFrm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ChildView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassView.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CalendarBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PropertiesWnd.h">
+      <Filter>源文件\属性页</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureView.h">
+      <Filter>源文件\缩略图</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>源文件\输出视图</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>源文件\MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3.h">
+      <Filter>头文件\SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="sqlite3ext.h">
+      <Filter>头文件\SQLite</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewTree.h">
+      <Filter>源文件\类视图</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectTree.h">
+      <Filter>源文件\项目视图</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectView.h">
+      <Filter>源文件\项目视图</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteCpp\Assertion.h">
+      <Filter>头文件\SQLite\SQLCPPH</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteCpp\Backup.h">
+      <Filter>头文件\SQLite\SQLCPPH</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteCpp\colum1n.h">
+      <Filter>头文件\SQLite\SQLCPPH</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteCpp\column.h">
+      <Filter>头文件\SQLite\SQLCPPH</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteCpp\database.h">
+      <Filter>头文件\SQLite\SQLCPPH</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteCpp\Exception.h">
+      <Filter>头文件\SQLite\SQLCPPH</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteCpp\sqlitecpp.h">
+      <Filter>头文件\SQLite\SQLCPPH</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteCpp\Statement.h">
+      <Filter>头文件\SQLite\SQLCPPH</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteCpp\Transaction.h">
+      <Filter>头文件\SQLite\SQLCPPH</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLiteCpp\VariadicBind.h">
+      <Filter>头文件\SQLite\SQLCPPH</Filter>
+    </ClInclude>
+    <ClInclude Include="CExcelOperation.h">
+      <Filter>源文件\Sqlite\Excel</Filter>
+    </ClInclude>
+    <ClInclude Include="CRanges.h">
+      <Filter>头文件\excel</Filter>
+    </ClInclude>
+    <ClInclude Include="CSheets0.h">
+      <Filter>头文件\excel</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkbook0.h">
+      <Filter>头文件\excel</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorkbooks0.h">
+      <Filter>头文件\excel</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorksheet0.h">
+      <Filter>头文件\excel</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorksheets0.h">
+      <Filter>头文件\excel</Filter>
+    </ClInclude>
+    <ClInclude Include="CApplication0.h">
+      <Filter>头文件\excel</Filter>
+    </ClInclude>
+    <ClInclude Include="CRange0.h">
+      <Filter>头文件\excel</Filter>
+    </ClInclude>
+    <ClInclude Include="MyDispLay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FireGrab.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CFont0.h">
+      <Filter>头文件\excel</Filter>
+    </ClInclude>
+    <ClInclude Include="Cnterior.h">
+      <Filter>头文件\excel</Filter>
+    </ClInclude>
+    <ClInclude Include="CShapes.h">
+      <Filter>头文件\excel</Filter>
+    </ClInclude>
+    <ClInclude Include="aes.h">
+      <Filter>源文件\VMP</Filter>
+    </ClInclude>
+    <ClInclude Include="VMP.h">
+      <Filter>源文件\VMP</Filter>
+    </ClInclude>
+    <ClInclude Include="WMI_DeviceQuery.h">
+      <Filter>源文件\VMP</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64.h">
+      <Filter>源文件\VMP</Filter>
+    </ClInclude>
+    <ClInclude Include="VMProtectSDK.h">
+      <Filter>源文件\VMP</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogUserLog.h">
+      <Filter>源文件\登录</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraCPP.h">
+      <Filter>源文件\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="MyData.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CMV.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildFrm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ChildView.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CalendarBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DISP_on_Command.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Disp_write_and_read.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="HC_3D_plane_reconstruction.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="HC_action_wafer_dicing.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="HC_classification_of_fabrics.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="HC_inspection_of_ball_grid_arrays.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="HC_inspection_of_saw_blades.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="HC_molding_flash_detection.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="HC_park_plug_measuring.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="HC_pose_Verification_of_resistor.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="HC_print_inspection.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="HC_punched_sheet.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="HC_reading_of_serial_number.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="HC_surface_inspection.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="MyCamera.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="struct_Display.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="鼠标事件.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="FireGrab.cpp">
+      <Filter>源文件\LGL</Filter>
+    </ClCompile>
+    <ClCompile Include="Dis_ROI.cpp">
+      <Filter>源文件\ROI</Filter>
+    </ClCompile>
+    <ClCompile Include="Dis_ROI_Function.cpp">
+      <Filter>源文件\ROI</Filter>
+    </ClCompile>
+    <ClCompile Include="Hal_function.cpp">
+      <Filter>源文件\ROI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>源文件\MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm_Camera.cpp">
+      <Filter>源文件\MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWnd.cpp">
+      <Filter>源文件\属性页</Filter>
+    </ClCompile>
+    <ClCompile Include="PropertiesWndOnPropertyChanged.cpp">
+      <Filter>源文件\属性页</Filter>
+    </ClCompile>
+    <ClCompile Include="PictureView.cpp">
+      <Filter>源文件\缩略图</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>源文件\输出视图</Filter>
+    </ClCompile>
+    <ClCompile Include="CamCali.cpp">
+      <Filter>源文件\标定</Filter>
+    </ClCompile>
+    <ClCompile Include="SqlLiteBase.cpp">
+      <Filter>源文件\Sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="MyData.cpp">
+      <Filter>源文件\Sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewTree.cpp">
+      <Filter>源文件\类视图</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectTree.cpp">
+      <Filter>源文件\项目视图</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectView.cpp">
+      <Filter>源文件\项目视图</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassView.cpp">
+      <Filter>源文件\类视图</Filter>
+    </ClCompile>
+    <ClCompile Include="NodeCAMProperty.cpp">
+      <Filter>源文件\属性页</Filter>
+    </ClCompile>
+    <ClCompile Include="Backup.cpp">
+      <Filter>头文件\SQLite\SQLCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Column.cpp">
+      <Filter>头文件\SQLite\SQLCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Database.cpp">
+      <Filter>头文件\SQLite\SQLCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Exception.cpp">
+      <Filter>头文件\SQLite\SQLCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Statement.cpp">
+      <Filter>头文件\SQLite\SQLCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="Transaction.cpp">
+      <Filter>头文件\SQLite\SQLCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="MyDatab.cpp">
+      <Filter>头文件\SQLite\SQLCPP</Filter>
+    </ClCompile>
+    <ClCompile Include="ROI_测量.cpp">
+      <Filter>源文件\ROI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrameOnCommand.cpp">
+      <Filter>源文件\MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="CExcelOperation.cpp">
+      <Filter>源文件\Sqlite\Excel</Filter>
+    </ClCompile>
+    <ClCompile Include="aes.cpp">
+      <Filter>源文件\VMP</Filter>
+    </ClCompile>
+    <ClCompile Include="VMP.cpp">
+      <Filter>源文件\VMP</Filter>
+    </ClCompile>
+    <ClCompile Include="WMI_DeviceQuery.cpp">
+      <Filter>源文件\VMP</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64.cpp">
+      <Filter>源文件\VMP</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogUserLog.cpp">
+      <Filter>源文件\登录</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraCPP.cpp">
+      <Filter>源文件\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="全局变量.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="autoMeasure.cpp">
+      <Filter>源文件\ROI</Filter>
+    </ClCompile>
+    <ClCompile Include="FindPeek.cpp">
+      <Filter>源文件\ROI</Filter>
+    </ClCompile>
+    <ClCompile Include="Dis_Add_Element.cpp">
+      <Filter>源文件\ROI</Filter>
+    </ClCompile>
+    <ClCompile Include="内参标定.cpp">
+      <Filter>源文件\标定</Filter>
+    </ClCompile>
+    <ClCompile Include="姿态标定.cpp">
+      <Filter>源文件\标定</Filter>
+    </ClCompile>
+    <ClCompile Include="Element_Add_Remove_Insert.cpp">
+      <Filter>源文件\Sqlite</Filter>
+    </ClCompile>
+    <ClCompile Include="edit_ROI.cpp">
+      <Filter>源文件\ROI</Filter>
+    </ClCompile>
+    <ClCompile Include="ROI-Dimension-display.cpp">
+      <Filter>源文件\ROI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CMV.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\file_view.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\file_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\class_view.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\class_view_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\fileview.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\fileview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\classview.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\classview_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\explorer.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\explorer_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sort.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\sort_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\menuimages.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\menuimages_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\output_wnd.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_wnd.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_wnd_hc.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\properties_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\nav_large.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\nav_large_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pages.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pages_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pages_small.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\pages_small_hc.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\info.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\buttons.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\filelarge.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\filesmall.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\main.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\writelarge.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\writesmall.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\CMV.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\i2.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Main.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\主页大图.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\main_home.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\homelarge.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\measurelarge.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\measurelarge2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\ChangMei.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\main2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\matchingsmall.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\calibrationsmall.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\calibratelarge.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\Matchlarge.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\MeasureEleLarge.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="res\bitmap3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\..\..\..\Users\keers\Desktop\logo-blue.png">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ribbon.mfcribbon-ms">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\CMV.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="res\ribbon1.mfcribbon-ms">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="sqlite3.def">
+      <Filter>头文件\SQLite</Filter>
+    </None>
+    <None Include="sqlite3.exp">
+      <Filter>头文件\SQLite</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="sqlite3.lib">
+      <Filter>头文件\SQLite</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
